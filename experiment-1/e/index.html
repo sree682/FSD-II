@@ -11,17 +11,14 @@
 <p id="output"></p>
 <script>
 const output = document.getElementById("output");
-// i. Function Declaration function greetDeclaration() {
+ function greetDeclaration() {
 output.innerText = "Hello from Function Declaration!";
 }
-
-11
-
-// ii. Function Definition (Function Expression) const greetDefinition = function () {
+  const greetDefinition = function () {
 output.innerText = "Hello from Function Definition (Expression)!";
 };
-// iii. Arrow Function const greetArrow = () => {
-output.innerText = "Hello fromArrow Function!";
+ const greetArrow = () => {
+output.innerText = "Hello from Arrow Function!";
 };
 </script>
 </body>
